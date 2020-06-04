@@ -1,8 +1,19 @@
 {
-    "name": "get-stream/stream-zend",
+    "name": "get-stream/stream-laminas",
     "homepage": "https://getstream.io/",
-    "description": "Build newsfeeds and activity feeds with Zend Framework using getstream.io",
-    "keywords": ["stream", "feed", "feedly", "getstream", "activity", "newsfeed", "activity feed", "notification feed", "aggregated feed", "zend", "zf3"],
+    "description": "Build newsfeeds and activity feeds with Laminas Framework using getstream.io",
+    "keywords": [
+        "stream",
+        "feed",
+        "feedly",
+        "getstream",
+        "activity",
+        "newsfeed",
+        "activity feed",
+        "notification feed",
+        "aggregated feed",
+        "laminas"
+    ],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -12,17 +23,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "GetStream\\Zend\\": "src/"
+            "GetStream\\Laminas\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GetStream\\Zend\\Unit\\": "tests/unit"
+            "GetStream\\Laminas\\Unit\\": "tests/unit"
         }
     },
     "require": {
-        "get-stream/stream": "^2.5.1",
-        "zendframework/zend-modulemanager": "^2.8"
+        "get-stream/stream": "^2.5.1 || ^3.0 || ^4.0",
+        "laminas/laminas-modulemanager": "^2.8",
+        "laminas/laminas-dependency-plugin": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"

@@ -1,12 +1,12 @@
 <?php
 
-namespace GetStream\Zend\Unit;
+namespace GetStream\Laminas\Unit;
 
 use GetStream\Stream\Client;
-use GetStream\Zend\Module;
+use GetStream\Laminas\Module;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Zend\ModuleManager\Feature\ServiceProviderInterface;
+use Laminas\ModuleManager\Feature\ServiceProviderInterface;
 
 class ModuleTest extends TestCase
 {

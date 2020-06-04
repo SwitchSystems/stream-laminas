@@ -1,8 +1,8 @@
 <?php
 
-namespace GetStream\Zend;
+namespace GetStream\Laminas;
 
-use Zend\ModuleManager\Feature\ServiceProviderInterface;
+use Laminas\ModuleManager\Feature\ServiceProviderInterface;
 
 use GetStream\Stream\Client;
 use Psr\Container\ContainerInterface;
